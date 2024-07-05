@@ -5,3 +5,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_rhode.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_rhode-ap2a-user \
+    aosp_rhode-ap2a-userdebug \
+    aosp_rhode-ap2a-eng
